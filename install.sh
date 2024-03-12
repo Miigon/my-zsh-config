@@ -6,11 +6,11 @@ fi
 
 set -v
 
-echo Clone submodules
-git submodule update --depth 1 --init --recursive
+echo Clone antidote
+git clone --depth=1 https://github.com/mattmc3/antidote.git antidote
 
 echo Creating symlinks
-ln -s ~/dotfiles/zsh/zshrc ~/.zshrc
+ln -s -f ~/dotfiles/zsh/zshrc ~/.zshrc
 
 echo "====== manual installs ======"
 echo "Install zoxide: https://github.com/ajeetdsouza/zoxide"
