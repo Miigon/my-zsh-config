@@ -1,0 +1,10 @@
+# stub zshrc to load the real zshrc config
+# this source line must be at the top of the file
+source ~/dotfiles/zsh/zshrc_real
+
+# ======= local rc ======= #
+# add rc commands that are local to this host below.
+# these won't get synced to the git repo by default
+# since this file (zshrc) is in .gitignore
+
+adsfsd

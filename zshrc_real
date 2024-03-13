@@ -35,9 +35,12 @@ alias sl="ls"
 export LSCOLORS=
 export LS_COLORS=
 
+# for zoxide installed via script to work.
+export PATH="$PATH:$HOME/.local/bin"
 eval "$(zoxide init zsh)"
 
 FILE=$zshhome/localrc && test -f $FILE && source $FILE
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f $zshhome/p10k.zsh ]] || source $zshhome/p10k.zsh
+

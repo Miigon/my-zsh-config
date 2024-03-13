@@ -1,4 +1,4 @@
 *.swp
-localrc
+zshrc
 antidote
 zsh_plugins.zsh
