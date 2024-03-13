@@ -7,4 +7,3 @@ source ~/dotfiles/zsh/zshrc_real
 # these won't get synced to the git repo by default
 # since this file (zshrc) is in .gitignore
 
-adsfsd
